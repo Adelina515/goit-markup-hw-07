@@ -82,6 +82,28 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-btn-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  padding: 10px 24px;
+  margin: 0 auto;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #188CE8;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
 }
@@ -223,8 +245,6 @@ span.header-logo:focus {
   height: 16px;
 }
 
-/* ---------header--------- */
-/* ---------decision---------- */
 .decision {
   background-color: var(--second-background-color);
   padding-top: 200px;
@@ -255,29 +275,6 @@ span.header-logo:focus {
   margin-bottom: 30px;
 }
 
-.btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: var(--primary-btn-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  display: block;
-  padding: 10px 24px;
-  margin: 0 auto;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #188CE8;
-}
-
-/* ---------benefits---------- */
 .benefits {
   margin: 0 auto;
 }
@@ -313,7 +310,6 @@ span.header-logo:focus {
   max-width: 270px;
 }
 
-/* ---------work---------- */
 .work {
   padding-top: 0px;
   margin: 0 auto;
@@ -362,7 +358,6 @@ span.header-logo:focus {
   bottom: 0;
 }
 
-/* ---------team---------- */
 .team {
   background-color: var(--team-background-color);
 }
@@ -442,7 +437,6 @@ span.header-logo:focus {
   background-color: var(--second-background-color-icon);
 }
 
-/* ---------customers---------- */
 .customers-list {
   display: flex;
 }
@@ -474,7 +468,6 @@ span.header-logo:focus {
   fill: var(--second-background-color-icon);
 }
 
-/* ---------footer---------- */
 footer {
   background-color: var(--second-background-color);
   padding-top: 60px;
@@ -671,7 +664,6 @@ span.footer-logo:focus {
   fill: var(--primary-btn-color);
 }
 
-/* ---------portfolio---------- */
 .button-list {
   display: flex;
   align-items: center;
@@ -989,4 +981,14 @@ label.modal-politic-label {
   padding: 10px 52px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* ---------header--------- */
+/* ---------decision---------- */
+/* ---------benefits---------- */
+/* ---------work---------- */
+/* ---------team---------- */
+/* ---------customers---------- */
+/* ---------footer---------- */
+/* ---------portfolio---------- */
+/* ---------modal---------- *//*# sourceMappingURL=main.css.map */
