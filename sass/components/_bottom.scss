@@ -13,10 +13,11 @@
      padding: 10px 24px;
      margin: 0 auto;
      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            background-color: #188CE8;
+        }
 
  }
 
- .btn:hover,
- .btn:focus {
-     background-color: #188CE8;
- }
+ 
