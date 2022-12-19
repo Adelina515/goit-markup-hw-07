@@ -13,7 +13,8 @@
 
 
  .customers-icon-link {
-    %flex-align
+     display: flex;
+     align-items: center;
      justify-content: center;
      padding: 0;
      width: 170px;
