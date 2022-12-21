@@ -2,7 +2,19 @@
      background-color: var(--second-background-color);
      padding-top: 200px;
      padding-bottom: 200px;
- }
+    &__heading {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.4;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--primary-header-color);
+            max-width: 696px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+}
 
  .overlay {
      max-width: 1600px;
@@ -19,16 +31,3 @@
 
  }
 
- .decision-heading {
-     font-weight: 900;
-     font-size: 44px;
-     line-height: 1.4;
-     text-align: center;
-     letter-spacing: 0.06em;
-     text-transform: uppercase;
-     color: var(--primary-header-color);
-     max-width: 696px;
-     margin: 0 auto;
-     margin-bottom: 30px;
-
- }

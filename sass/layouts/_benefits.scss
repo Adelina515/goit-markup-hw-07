@@ -2,15 +2,15 @@
     margin: 0 auto;
 }
 
-.benefits-list {
+.icon-list {
     display: flex;
 }
 
-.benefits-element:nth-child(-n+3) {
+.icon-list__element:nth-child(-n+3) {
     margin-right: 30px;
 }
 
-.benefits-icons {
+.icon-list__icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     margin-bottom: 30px;
 }
 
-.benefit-heading {
+.icon-list__heading {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -29,6 +29,6 @@
     margin-bottom: 10px;
 }
 
-.subtitle {
+.icon-list__subtitle {
     max-width: 270px;
 }
